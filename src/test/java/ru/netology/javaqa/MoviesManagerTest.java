@@ -44,7 +44,7 @@ class MoviesManagerTest {
 
     @Test
     void shouldFindLastIfLimitIsMoreThanArray() {
-        MoviesManager moviesManager = new MoviesManager(7);
+        MoviesManager moviesManager = new MoviesManager(8);
         moviesManager.addMovie(item1);
         moviesManager.addMovie(item2);
         moviesManager.addMovie(item3);
