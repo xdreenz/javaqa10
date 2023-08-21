@@ -28,7 +28,7 @@ class MoviesManagerTest {
 
 
     @Test
-    void shouldFindLastIfLimitLessThanArray() {
+    void shouldFindLastIfLimitIsLessThanArray() {
         MoviesManager moviesManager = new MoviesManager(3);
         moviesManager.addMovie(item1);
         moviesManager.addMovie(item2);
@@ -43,7 +43,7 @@ class MoviesManagerTest {
     }
 
     @Test
-    void shouldFindLastIfLimitMoreThanArray() {
+    void shouldFindLastIfLimitIsMoreThanArray() {
         MoviesManager moviesManager = new MoviesManager(7);
         moviesManager.addMovie(item1);
         moviesManager.addMovie(item2);
